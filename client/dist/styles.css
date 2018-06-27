@@ -198,12 +198,12 @@ button {
   }
 
   .gameboard_left {
-    width: 31%;
+    width: 33%;
     float: left;
   }
 
   .gameboard_right {
-    width: 300px;
+    width: 33%;
     float: left;
     text-align: center;
   }
