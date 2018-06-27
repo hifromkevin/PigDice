@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Oswald:200,400');
+
+/*************** 
+**  DEFAULTS  **
+****************/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  color: #69bd45;
+  font-family: 'Oswald', sans-serif;
+  background-color: #efefef;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.25em;
+  font-weight: 100;
+}
+
+
+/*************** 
+**    MENU    **
+****************/
+
+#menu {
+  width: 100%;
+  background-color: rgba(0,255,0, 0.3);
+  padding: 1% 0;
+  margin-bottom: 1%;
+}
+
+#menu_logo {
+  width: 18%;
+  display: block;
+  margin: 1% auto;
+}
+
+#menu_rules {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  color: #c51d67;
+}
+
+#menu_rules h3 {
+  margin-top: 2%;
+}
+
+/*************** 
+**   CUSTOM   **
+****************/
+
+.text_center {
+  text-align: center;
+}
+
+.dice {
+  display: block;
+  border-radius: 15%;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.hideRules {
+  display: none;
+}
+
+.rows {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+
+.skinny_row {
+  width: 70%;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.gameboard_left {
+  padding-top: 5%;
+}
+
+input {
+    padding: 1%;
+    border: none;
+    font-size: 1.5em;
+    margin: 1%;
+}
+
+/****************
+** PLAYER INFO **
+*****************/
+
+.player {
+  background-color: rgba(255,255,255,0.4);
+  padding: 1%;
+  text-align: center;
+}
+
+.active {
+  background-color: rgba(255,255,255,1);
+}
+
+
+.player_score {
+  font-size: 4em;
+}
+
+.current-score {
+  width: 25%;
+  display: block;
+  margin: 1% auto;
+  background-color: #090;
+  padding: 1%;
+  color: #fff;
+  line-height: 200%;
+  font-size: 1.2em;
+}
+
+.active .player_name::before {
+    content: ' • ';
+}
+
+.hide {
+  display: none;
+}
+
+#winner {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+/*************** 
+** PLAY UNTIL **
+****************/
+
+.playUntil {
+  width: 100%;
+  background-color: rgba(255,255,255,0.4);
+  margin-top: 1.5%;
+  padding: 2%;
+  text-align: center;
+}
+
+
+/*************** 
+**   BUTTONS  **
+****************/
+
+button {
+  font-family: 'Amatic SC', cursive;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  width: 20%;
+  padding: 0.5% 0;
+  margin: 2% 0;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.btn-hold {
+  background-color: #66a;
+  margin-left: 10%;
+}
+
+.btn-roll {
+  background-color: #6a6;
+  margin: 0px 10%;
+  padding: 1% 0;
+}
+
+.btn-new {
+  background-color: #a66;
+  margin-right: 10%;
+}
+
+/*************** 
+**  QUERIES   **
+****************/
+
+@media screen and (min-width: 400px) {
+  .player {
+    width: 45%;
+    margin: 0 1%;
+    float: left;
+  }
+
+  .gameboard_left {
+    width: 31%;
+    float: left;
+  }
+
+  .gameboard_right {
+    width: 300px;
+    float: left;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
