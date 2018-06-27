@@ -1,13 +1,17 @@
 {
   "name": "pigdice",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A dice game built with React where the object is to not roll a one, and get to the target score first.",
+  "main": "server/index.js",
   "scripts": {
     "start": "nodemon server/index.js",
     "build": "webpack -d --watch"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hifromkevin/PigDice.git"
+  },
+  "author": "Kevin Lam",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
